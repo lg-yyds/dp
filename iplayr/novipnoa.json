@@ -1,0 +1,68 @@
+{
+"uuid":"6ed73adf-8c3e-46dd-a8cd-64a7dfe491d2",
+"title":"novipnoa",
+"episode_flag":true,
+"landscape_flag":false,
+"referer":"https://www.novipnoad.net/",
+	"cf_flag":true,
+	"user_agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 26_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1",
+"open_with_safari_flag":true,
+  "category": [{
+			"title": "电影",
+			"url0": "https://www.novipnoad.net/movie/",
+			"url1": "https://www.novipnoad.net/movie/page/{pg}/"
+		},
+	  {
+			"title": "欧美剧",
+			"url0": "https://www.novipnoad.net/tv/western/",
+			"url1": "https://www.novipnoad.net/tv/western/page/{pg}/"
+		},
+	  {
+			"title": "日剧",
+			"url0": "https://www.novipnoad.net/tv/japan/",
+			"url1": "https://www.novipnoad.net/tv/japan/page/{pg}/"
+		},
+	  {
+			"title": "韩剧",
+			"url0": "https://www.novipnoad.net/tv/korea/",
+			"url1": "https://www.novipnoad.net/tv/korea/page/{pg}/"
+		},
+	  {
+			"title": "港片",
+			"url0": "https://www.novipnoad.net/tv/hongkong/",
+			"url1": "https://www.novipnoad.net/tv/hongkong/page/{pg}/"
+		},
+	   {
+			"title": "台片",
+			"url0": "https://www.novipnoad.net/tv/taiwan/",
+			"url1": "https://www.novipnoad.net/tv/taiwan/page/{pg}/"
+		}
+],
+"vod_node":"//section[@class='video-listing']//div[contains(@class, 'video-item')]",
+"vod_info":"",
+"vod_score":"",
+"vod_title":"//h3//a",
+"vod_image_id":"//img/@data-original",
+"vod_image_regex":"",
+"vod_image_url":"{id}",
+"vod_link_id":"//h3//a/@href",
+"vod_link_url":"{id}",
+"play_regex":"",
+"play_url":"{id}",
+"playlist_flag":false,
+"playlist_group_node":"//table[@class='table table-bordered']",
+"playlist_title":"//a",
+"playlist_link_id":"//a/@href",
+"playlist_link_url":"https://www.novipnoad.net{id}",
+"playlist_info":"//div[@class='item-content toggled']/p",
+"search_flag":true,
+"search_url_first_page":"https://www.novipnoad.net/?s={wd}",
+"search_url_other_page":"https://www.novipnoad.net/page/{pg}/?s={wd}",
+"search_vod_node":"//div[@class='search-listing-content   ']//div[contains(@class, 'video-item')]",
+"search_vod_title":"//h3/a",
+"search_vod_image_id":"//img/@data-original",
+"search_vod_image_regex":"",
+"search_vod_image_url":"{id}",
+"search_vod_link_id":"//h3//a/@href",
+"search_vod_link_url":"{id}"
+}

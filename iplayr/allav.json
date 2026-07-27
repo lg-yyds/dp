@@ -1,0 +1,58 @@
+{
+"uuid":"76d49e34-b2ef-4b9d-911f-77c445c63940",
+"title":"allav",
+"episode_flag":false,
+"landscape_flag":true,
+"referer":"",
+"open_with_safari_flag":false,
+"pageSize": 25,
+"category": [{
+			"title": "最近更新",
+			"url0": "https://pigav.ws/api/v1/videos?start=0&count=25&sort=-publishedAt",
+			"url1": "https://pigav.ws/api/v1/videos?start={start}&count={count}&sort=-publishedAt"
+		},
+	{
+			"title": "亚洲",
+			"url0": "https://pigav.ws/api/v1/videos?start=0&count=25&sort=-publishedAt&skipCount=true&categoryOneOf=21&nsfw=both&nsfwFlagsExcluded=0&nsfwFlagsIncluded=0",
+			"url1": "https://pigav.ws/api/v1/videos?start={start}&count={count}&sort=-publishedAt&skipCount=true&categoryOneOf=21&nsfw=both&nsfwFlagsExcluded=0&nsfwFlagsIncluded=0"
+		},
+	{
+			"title": "日韩",
+			"url0": "https://pigav.ws/api/v1/videos?start=0&count=25&sort=-publishedAt&skipCount=true&categoryOneOf=20&nsfw=both&nsfwFlagsExcluded=0&nsfwFlagsIncluded=0",
+			"url1": "https://pigav.ws/api/v1/videos?start={start}&count={count}&sort=-publishedAt&skipCount=true&categoryOneOf=20&nsfw=both&nsfwFlagsExcluded=0&nsfwFlagsIncluded=0"
+		},
+	{
+			"title": "自拍",
+			"url0": "https://pigav.ws/api/v1/videos?start=0&count=25&sort=-publishedAt&skipCount=true&categoryOneOf=22&nsfw=both&nsfwFlagsExcluded=0&nsfwFlagsIncluded=0",
+			"url1": "https://pigav.ws/api/v1/videos?start={start}&count={count}&sort=-publishedAt&skipCount=true&categoryOneOf=22&nsfw=both&nsfwFlagsExcluded=0&nsfwFlagsIncluded=0"
+		},
+	{
+			"title": "欧美",
+			"url0": "https://pigav.ws/api/v1/videos?start=0&count=25&sort=-publishedAt&skipCount=true&categoryOneOf=23&nsfw=both&nsfwFlagsExcluded=0&nsfwFlagsIncluded=0",
+			"url1": "https://pigav.ws/api/v1/videos?start={start}&count={count}&sort=-publishedAt&skipCount=true&categoryOneOf=23&nsfw=both&nsfwFlagsExcluded=0&nsfwFlagsIncluded=0"
+		}
+	],    
+"vod_node":"$.data[*]",
+"vod_info":"publishedAt",
+"vod_score":"",
+"vod_title":"name",
+"vod_image_id":"previewPath",
+"vod_image_url":"{id}",
+"vod_link_id":"shortUUID",
+"vod_link_url":"https://pigav.ws/api/v1/videos/{id}",
+"playlist_flag":true,
+"playlist_group_node":"$.streamingPlaylists[*].files[*]",
+"playlist_title":"$.resolution.label",
+"playlist_link_id":"$.playlistUrl",
+"playlist_link_url":"{id}",
+"playlist_info":"$.description",
+"search_flag":true,
+"search_url_first_page":"https://pigav.ws/api/v1/search/videos?start=0&count=20&search={wd}&sort=-match&searchTarget=local&nsfw=both&nsfwFlagsIncluded=0",
+"search_url_other_page":"https://pigav.ws/api/v1/search/videos?start={start}&count={count}&search={wd}&sort=-match&searchTarget=local&nsfw=both&nsfwFlagsIncluded=0",
+"search_vod_node":"$.data[*]",
+"search_vod_title":"name",
+"search_vod_image_id":"previewPath",
+"search_vod_image_url":"{id}",
+"search_vod_link_id":"shortUUID",
+"search_vod_link_url":"{id}"
+}

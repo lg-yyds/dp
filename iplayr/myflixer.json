@@ -1,0 +1,48 @@
+{
+"uuid":"6ed73adf-8c3e-46dd-a8cd-64a7dfe491d2",
+"title":"myflixer",
+"episode_flag":true,
+"landscape_flag":false,
+"referer":"",
+"open_with_safari_flag":true,
+"category": [{
+			"title": "movie",
+			"url0": "https://simyflix.com/latest-movies/",
+			"url1": "https://simyflix.com/latest-movies/page/{pg}"
+		},
+		{
+			"title": "TV shows",
+			"url0": "https://simyflix.com/tv-series/",
+			"url1": "https://simyflix.com/tv-series/page/{pg}"
+		}
+       
+	],    
+
+"vod_node":"//div[@class='row list-movie g-3']//div[@class='card border-0 shadow']",
+"vod_info":"//span[@class='mlbq']",
+"vod_score":"",
+"vod_title":"//h2",
+"vod_image_id":"//img/@data-src",
+"vod_image_regex":"",
+"vod_image_url":"{id}",
+"vod_link_id":"//a/@href",
+"vod_link_url":"https://simyflix.com{id}",
+"play_regex":"",
+"play_url":"{id}",
+"playlist_flag":false,
+"playlist_group_node":"",
+"playlist_title":"",
+"playlist_link_id":"",
+"playlist_link_url":"",
+"playlist_info":"",
+"search_flag":true,
+"search_url_first_page":"https://simyflix.com/search/{wd}",
+"search_url_other_page":"https://simyflix.com/search/{wd}?page={pg}",
+"search_vod_node":"//div[@class='film_list-wrap']//div[@class='flw-item']",
+"search_vod_title":"//h2/a",
+"search_vod_image_id":"//img/@data-src",
+"search_vod_image_regex":"",
+"search_vod_image_url":"",
+"search_vod_link_id":"//h2/a/@href",
+"search_vod_link_url":"https://simyflix.com{id}"
+}
