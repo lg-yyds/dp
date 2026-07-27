@@ -32,17 +32,6 @@ jobs:
           rsync -av --exclude='.git' /tmp/dp/ ./
           echo "Sync completed."
 
-      # 复制 JN/EXT/JS/YTTV.txt 到 JN/EXT/TXT 目录
-      - name: Copy YTTV.txt to target directory
-        run: |
-          echo "Copying YTTV.txt to JN/EXT/TXT..."
-          mkdir -p JN/EXT/TXT
-          if [ -f JN/EXT/JS/YTTV.txt ]; then
-            cp JN/EXT/JS/YTTV.txt JN/EXT/TXT/
-            echo "YTTV.txt copied."
-          else
-            echo "YTTV.txt not found, skip."
-          fi
 
       # 提交并推送更改到自己的仓库
       - name: Commit and push changes
